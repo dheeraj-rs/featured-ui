@@ -1,0 +1,125 @@
+{
+    "pageTitle": "Projects",
+    "filters": [
+        {
+            "label": "All",
+            "dataFilterBtn": true,
+            "category": null
+        },
+        {
+            "label": "Web design",
+            "dataFilterBtn": false,
+            "category": "web design"
+        },
+        {
+            "label": "Applications",
+            "dataFilterBtn": false,
+            "category": "applications"
+        },
+        {
+            "label": "Web development",
+            "dataFilterBtn": false,
+            "category": "web development"
+        }
+    ],
+    "selectBox": {
+        "label": "Select category",
+        "chevronIcon": "chevron-down",
+        "options": [
+            {
+                "label": "All",
+                "dataSelectItem": true,
+                "category": null
+            },
+            {
+                "label": "Web design",
+                "dataSelectItem": false,
+                "category": "web design"
+            },
+            {
+                "label": "Applications",
+                "dataSelectItem": false,
+                "category": "applications"
+            },
+            {
+                "label": "Web development",
+                "dataSelectItem": false,
+                "category": "web development"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Finance",
+            "category": "web development",
+            "image": "/images/project-1.jpg",
+            "alt": "finance",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/finance"
+        },
+        {
+            "title": "Orizon",
+            "category": "web development",
+            "image": "/images/project-2.png",
+            "alt": "orizon",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/orizon"
+        },
+        {
+            "title": "Fundo",
+            "category": "web design",
+            "image": "/images/project-3.jpg",
+            "alt": "fundo",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/fundo"
+        },
+        {
+            "title": "Brawlhalla",
+            "category": "applications",
+            "image": "/images/project-4.png",
+            "alt": "brawlhalla",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/brawlhalla"
+        },
+        {
+            "title": "DSM.",
+            "category": "web design",
+            "image": "/images/project-5.png",
+            "alt": "dsm.",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/dsm"
+        },
+        {
+            "title": "MetaSpark",
+            "category": "web design",
+            "image": "/images/project-6.png",
+            "alt": "metaspark",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/metaspark"
+        },
+        {
+            "title": "Summary",
+            "category": "web development",
+            "image": "/images/project-7.png",
+            "alt": "summary",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/summary"
+        },
+        {
+            "title": "Task Manager",
+            "category": "applications",
+            "image": "/images/project-8.jpg",
+            "alt": "task manager",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/task-manager"
+        },
+        {
+            "title": "Arrival",
+            "category": "web development",
+            "image": "/images/project-9.png",
+            "alt": "arrival",
+            "iconName": "eye-outline",
+            "websiteUrl": "https://example.com/arrival"
+        }
+    ]
+}

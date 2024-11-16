@@ -1,0 +1,24 @@
+{
+    "navItems": [
+        {
+            "name": "About",
+            "page": "about-page"
+        },
+        {
+            "name": "Projects",
+            "page": "projects-page"
+        },
+        {
+            "name": "Resume",
+            "page": "resume-page"
+        },
+        {
+            "name": "Blog",
+            "page": "blog-page"
+        },
+        {
+            "name": "Contact",
+            "page": "contact-page"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "avatar": {
+    "src": "/images/my-avatar.png",
+    "alt": "Richard hanrick",
+    "width": 80,
+    "height": 80
+  },
+  "name": "DHEERAJ R S",
+  "title": "Software developer",
+  "contacts": [
+    {
+      "type": "Email",
+      "icon": "mail-outline",
+      "href": "mailto:drjsde@gmail.com",
+      "displayText": "drjsde@gmail.com"
+    },
+    {
+      "type": "Phone",
+      "icon": "phone-portrait-outline",
+      "href": "tel:+91 8086022295",
+      "displayText": "+91 8086022295"
+    },
+    {
+      "type": "Birthday",
+      "icon": "calendar-outline",
+      "displayText": "Oct 27, 1997",
+      "datetime": "1997-10-27"
+    },
+    {
+      "type": "Location",
+      "icon": "location-outline",
+      "displayText": "Calicut, Kerala, IND"
+    }
+  ],
+  "socials": [
+    {
+      "href": "#",
+      "icon": "logo-facebook"
+    },
+    {
+      "href": "#",
+      "icon": "logo-twitter"
+    },
+    {
+      "href": "https://www.instagram.com/dheeraj_rs?igsh=aWx6aGhndGV0ejIz",
+      "icon": "logo-instagram"
+    }
+  ]
+}

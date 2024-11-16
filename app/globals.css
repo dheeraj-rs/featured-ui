@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "transition-style";
+
+@layer base {
+  :root {
+    --background: 27 27 27;
+    --foreground: 225 225 225;
+    --muted: 115 115 115;
+    --accent: 254 254 91;
+  }
+}
+
+@keyframes square-in-hesitate {
+  0% {
+    clip-path: inset(100% 100% 100% 100%);
+  }
+
+  40% {
+    clip-path: inset(33% 33% 33% 33%);
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+[transition-style="in:square:hesitate"] {
+  animation: 3s cubic-bezier(.25, 1, .30, 1) square-in-hesitate both;
+}
+
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+
+  .custom-bg {
+    @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm;
+  }
+}
+
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+
+/* text animation */
+.text-purple {
+  color: #CBACF9;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.dark .text-white {
+  color: #FFFFFF;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.tracking-wide {
+  letter-spacing: 0.05em;
+}
